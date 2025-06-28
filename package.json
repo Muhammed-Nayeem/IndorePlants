@@ -1,0 +1,24 @@
+{
+  "name": "indorplants-landingpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [
+    "HTML",
+    "Tailwind CSS",
+    "JavaScript",
+    "Web Design",
+    "Responsive Design",
+    "Landing Page Design"
+  ],
+  "author": "Muhammed Nayeem",
+  "license": "ISC",
+  "description": "This is a Indore Plant web design based on tailwind css",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
