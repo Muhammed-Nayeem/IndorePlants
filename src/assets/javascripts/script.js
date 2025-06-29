@@ -18,7 +18,6 @@ navLinks.forEach((link) => {
 
 //Reviews Swiper Slider Active and Implementation:
 const swiper = new Swiper('.swiper', {
-  // Optional parameters
   slidesPerView: 1,
   speed: 400,
   spaceBetween: 30,
@@ -28,7 +27,6 @@ const swiper = new Swiper('.swiper', {
     disableOnInteraction: false,
   },
 
-  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
