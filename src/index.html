@@ -20,7 +20,7 @@
     <div class="main-container">
       <nav id="navbar" class="mx-8 xl:mx-0 flex justify-between items-center h-16 sm:h-20">
         <a href="#home" class="text-2xl sm:text-3xl font-secondary">IndorePlants.</a>
-        <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[80vh] w-full bg-green-950/80 backdrop-blur-sm flex justify-center items-center overflow-hidden duration-300 md:min-h-fit md:w-auto md:bg-transparent md:static">
+        <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[100vh] w-full bg-green-950/80 backdrop-blur-sm flex justify-center items-center overflow-hidden duration-300 md:min-h-fit md:w-auto md:bg-transparent md:static">
           <ul class="flex flex-col items-center gap-8 md:flex-row">
             <li><a href="#home" class="nav-link">Home</a></li>
             <li><a href="#services" class="nav-link">Services</a></li>
@@ -204,7 +204,7 @@
           <p class="text-lg text-slate-300 pt-2">Follow instruction for more</p>
         </article>
         <!-- group card container -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-40 mt-48 mx-8 xl:mx-0">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-10 gap-y-40 mt-48 mx-8 xl:mx-0">
           <div class="flex flex-col relative bg-green-950 p-6 rounded-md popular-card duration-200 transition">
             <img src="./assets/images/cart-1.png" alt="popular-image" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-300">
             <div class="mt-20 mx-4">
@@ -290,7 +290,7 @@
     </section>
 
     <!-- review start -->
-    <section id="review" class="relative overflow-hidden">
+    <section id="review" class="relative overflow-hidden !pb-40">
       <div class="main-container">
         <!-- top leaf image -->
         <div class="absolute -top-10 -right-12 animate-pulse">
@@ -381,13 +381,13 @@
   </main>
 
   <!-- footer start -->
-  <footer id="footer" class="relative bg-yellow-100 py-20 md:py-28">
+  <footer id="footer" class="relative bg-yellow-100 pt-20 pb-10 md:pt-28">
     <div class="main-container">
       <!-- top newsletter -->
-      <div class="mx-8 xl:mx-0 bg-green-900 p-8 rounded-md absolute top-0 left-0 right-0 -translate-y-1/2 main-container">
-        <div class="flex flex-col gap-6">
+      <div class="absolute top-0 left-0 right-0 -translate-y-1/2 container mx-auto">
+        <div class="bg-green-900 p-8 rounded-md space-y-5 mx-8 xl:mx-0">
           <h2 class="text-3xl md:text-4xl text-slate-300 font-medium font-primary"><span class="text-yellow-500">Subscribe</span> to our newsletter</h2>
-          <div class="flex flex-col md:flex-row gap-2">
+          <div class="flex flex-col md:flex-row gap-4">
             <input type="email" name="email" id="email" placeholder="Your email address" class="bg-white text-gray-800 outline-0 w-full px-4 py-3 rounded-md">
             <button class="flex gap-2 items-center justify-center bg-green-950 px-4 py-3 rounded-md cursor-pointer group duration-300 transition">
               <span class="text-base font-medium">Subscribe</span>
@@ -395,6 +395,68 @@
             </button>
           </div>
         </div>
+      </div>
+      <!-- social icon with border -->
+      <div class="mt-24 mb-16 mx-auto">
+        <div class="border-b border-green-500 relative mx-8 xl:mx-0">
+          <div class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto">
+            <div class="bg-yellow-100 text-center space-x-2">
+              <a class="text-gray-950 text-xl hover:text-green-900" href="#"><i class="ri-facebook-fill"></i></a>
+              <a class="text-gray-950 text-xl hover:text-green-900" href="#"><i class="ri-twitter-x-line"></i></a>
+              <a class="text-gray-950 text-xl hover:text-green-900" href="#"><i class="ri-instagram-line"></i></a>
+              <a class="text-gray-950 text-xl hover:text-green-900" href="#"><i class="ri-linkedin-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- quick links -->
+      <div class="mx-8 xl:mx-0 text-green-900 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start">
+        <!-- item one -->
+        <div>
+          <div class="text-7xl text-green-700 text-center inline-block">
+            <i class="ri-leaf-fill"></i>
+            <p class="font-secondary text-xl sm:text-2xl">IndorePlants.</p>
+          </div>
+        </div>
+        <!-- item two -->
+        <div>
+          <h4 class="mb-2 font-bold text-xl">Quick Link</h4>
+          <div class="flex flex-col gap-1">
+            <a href="#">Plants</a>
+            <a href="#">Flowers</a>
+            <a href="#">Gerdening</a>
+            <a href="#">Seeds</a>
+            <a href="#">Shipping</a>
+          </div>
+        </div>
+        <!-- item three -->
+        <div>
+          <h4 class="mb-2 font-bold text-xl">Popular Services</h4>
+          <div class="flex flex-col gap-1">
+            <a href="#">Tree Planting</a>
+            <a href="#">Grass Cutting</a>
+            <a href="#">Weeds Control</a>
+            <a href="#">Project</a>
+          </div>
+        </div>
+        <!-- item four -->
+        <div>
+          <h4 class="mb-2 font-bold text-xl">Contact Us</h4>
+          <div class="flex flex-col gap-1">
+            <a href="tel:+8833378901">+88 333 78 901</a>
+            <a href="mailto:indoreplant@gmail.com">indoreplant@gmail.com</a>
+            <br>
+            <p>1234 Tailwind Ave, CSS City, Webland 56789, USA</p>
+          </div>
+        </div>
+      </div>
+      <!-- copyright text -->
+      <div class="mx-8 xl:mx-0 text-center mt-12">
+        <p class="text-green-900 text-lg font-primary">Copyright &copy; <span id="current-year"></span> IndorePlant. All rights reserved.</p>
+      </div>
+      <!-- floral image -->
+      <div class="absolute bottom-0 left-0 opacity-20 pointer-events-none">
+        <img src="./assets/images/floral-1.png" alt="floral-image" class="w-full lg:w-1/2">
       </div>
     </div>
   </footer>
