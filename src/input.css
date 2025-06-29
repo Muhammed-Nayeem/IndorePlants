@@ -3,6 +3,10 @@
 
 @import "tailwindcss";
 
+html {
+  @apply scroll-smooth transition;
+}
+
 @theme {
   --font-primary: "Jost", "sans-serif";
   --font-secondary: "Lobster", "sans-serif";
@@ -38,5 +42,8 @@
   }
   .popular-card:hover img {
     @apply -top-8;
+  }
+  .swiper-pagination-bullet {
+    @apply !bg-green-500 w-4 h-4;
   }
 }

@@ -204,8 +204,8 @@
           <p class="text-lg text-slate-300 pt-2">Follow instruction for more</p>
         </article>
         <!-- group card container -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mt-48 mx-8 xl:mx-0">
-          <div class="flex flex-col relative bg-green-950 p-6 rounded-md popular-card duration-200 transition mb-40 lg:mb-0">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-40 mt-48 mx-8 xl:mx-0">
+          <div class="flex flex-col relative bg-green-950 p-6 rounded-md popular-card duration-200 transition">
             <img src="./assets/images/cart-1.png" alt="popular-image" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-300">
             <div class="mt-20 mx-4">
               <p class="italic text-slate-300 text-lg">Nephrolepis exaltata</p>
@@ -225,7 +225,7 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col relative bg-green-950 p-6 rounded-md popular-card duration-200 transition mb-40 lg:mb-0">
+          <div class="flex flex-col relative bg-green-950 p-6 rounded-md popular-card duration-200 transition">
             <img src="./assets/images/cart-2.png" alt="popular-image" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-300">
             <div class="mt-20 mx-4">
               <p class="italic text-slate-300 text-lg">Ficus elastica</p>
@@ -245,7 +245,7 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col relative bg-green-950 p-6 rounded-md popular-card duration-200 transition mb-40 lg:mb-0">
+          <div class="flex flex-col relative bg-green-950 p-6 rounded-md popular-card duration-200 transition">
             <img src="./assets/images/cart-3.png" alt="popular-image" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-300">
             <div class="mt-20 mx-4">
               <p class="italic text-slate-300 text-lg">Spathiphyllum wallisii</p>
@@ -265,7 +265,7 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col relative bg-green-950 p-6 rounded-md popular-card duration-200 transition mb-40 lg:mb-0">
+          <div class="flex flex-col relative bg-green-950 p-6 rounded-md popular-card duration-200 transition">
             <img src="./assets/images/cart-4.png" alt="popular-image" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-300">
             <div class="mt-20 mx-4">
               <p class="italic text-slate-300 text-lg">Adenium obesum</p>
@@ -284,6 +284,96 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review start -->
+    <section id="review" class="relative overflow-hidden">
+      <div class="main-container">
+        <!-- top leaf image -->
+        <div class="absolute -top-10 -right-12 animate-pulse">
+          <figure>
+            <img class="w-40 md:w-52 lg:w-64 opacity-50" src="./assets/images/leaf-3.png" alt="leaf-image">
+          </figure>
+        </div>
+        <!-- section title -->
+        <article class="text-center mx-8 xl:mx-0">
+          <h2 class="text-3xl md:text-4xl text-yellow-500 font-semibold font-secondary">Customer Reviews</h2>
+          <p class="text-lg text-slate-300 pt-2">Follow instruction for more</p>
+        </article>
+        <!-- reviews slider container -->
+        <div id="review-slider" class="mt-12 mx-8 xl:mx-0">
+          <div class="swiper py-12">
+            <ul class="swiper-wrapper mb-14">
+              <li class="swiper-slide">
+                <div class="bg-green-900 p-6 rounded-lg flex flex-col justify-between gap-8">
+                  <p class="text-lg font-secondary text-slate-200 tracking-widest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+                  <div class="flex items-center gap-4">
+                    <img class="w-12 h-12 rounded-full border border-green-950" src="./assets/images/review-1.jpg" alt="user-image">
+                    <div class="flex flex-col">
+                      <h4 class="text-lg font-medium text-yellow-500">Senorita Lily</h4>
+                      <p class="text-slate-300 text-base">Designer</p>
+                    </div>
+                    <i class="ri-double-quotes-r text-3xl text-slate-300 ml-auto"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="bg-green-900 p-6 rounded-lg flex flex-col justify-between gap-8">
+                  <p class="text-lg font-secondary text-slate-200 tracking-widest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+                  <div class="flex items-center gap-4">
+                    <img class="w-12 h-12 rounded-full border border-green-950" src="./assets/images/review-2.jpg" alt="user-image">
+                    <div class="flex flex-col">
+                      <h4 class="text-lg font-medium text-yellow-500">Indrajit Chandra</h4>
+                      <p class="text-slate-300 text-base">Frontend Developer</p>
+                    </div>
+                    <i class="ri-double-quotes-r text-3xl text-slate-300 ml-auto"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="bg-green-900 p-6 rounded-lg flex flex-col justify-between gap-8">
+                  <p class="text-lg font-secondary text-slate-200 tracking-widest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+                  <div class="flex items-center gap-4">
+                    <img class="w-12 h-12 rounded-full border border-green-950" src="./assets/images/review-3.jpg" alt="user-image">
+                    <div class="flex flex-col">
+                      <h4 class="text-lg font-medium text-yellow-500">Luna Love-Good</h4>
+                      <p class="text-slate-300 text-base">React Developer</p>
+                    </div>
+                    <i class="ri-double-quotes-r text-3xl text-slate-300 ml-auto"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="bg-green-900 p-6 rounded-lg flex flex-col justify-between gap-8">
+                  <p class="text-lg font-secondary text-slate-200 tracking-widest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+                  <div class="flex items-center gap-4">
+                    <img class="w-12 h-12 rounded-full border border-green-950" src="./assets/images/review-4.jpg" alt="user-image">
+                    <div class="flex flex-col">
+                      <h4 class="text-lg font-medium text-yellow-500">Joydip Paul Jishu</h4>
+                      <p class="text-slate-300 text-base">Web Developer - Angular</p>
+                    </div>
+                    <i class="ri-double-quotes-r text-3xl text-slate-300 ml-auto"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="bg-green-900 p-6 rounded-lg flex flex-col justify-between gap-8">
+                  <p class="text-lg font-secondary text-slate-200 tracking-widest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+                  <div class="flex items-center gap-4">
+                    <img class="w-12 h-12 rounded-full border border-green-950" src="./assets/images/review-1.jpg" alt="user-image">
+                    <div class="flex flex-col">
+                      <h4 class="text-lg font-medium text-yellow-500">Dimitry Joshy</h4>
+                      <p class="text-slate-300 text-base">UI/UX Designer</p>
+                    </div>
+                    <i class="ri-double-quotes-r text-3xl text-slate-300 ml-auto"></i>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </div>
