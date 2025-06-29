@@ -4,7 +4,7 @@
 @import "tailwindcss";
 
 html {
-  @apply scroll-smooth transition;
+  @apply scroll-smooth transition overflow-x-hidden;
 }
 
 @theme {
@@ -15,6 +15,9 @@ html {
 @layer {
   .main-container {
     @apply container max-w-screen-xl mx-auto;
+  }
+  .active {
+    @apply text-yellow-500;
   }
   .nav-link {
     @apply text-lg font-bold duration-300 transition;
