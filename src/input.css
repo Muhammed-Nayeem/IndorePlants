@@ -33,12 +33,10 @@
   .btn-outline:hover {
     @apply bg-yellow-500 opacity-90;
   }
-  @keyframes moving {
-    50% {
-      transform: translateY("-1rem");
-    }
+  .popular-card:hover {
+    @apply transform -translate-y-1;
   }
-  .animate-moving {
-    animation: moving 5s linear infinite;
+  .popular-card:hover img {
+    @apply -top-8;
   }
 }
