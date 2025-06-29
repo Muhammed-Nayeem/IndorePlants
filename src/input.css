@@ -7,3 +7,15 @@
   --font-primary: "Jost", "sans-serif";
   --font-secondary: "Lobster", "sans-serif";
 }
+
+@layer {
+  .main-container {
+    @apply container max-w-screen-xl mx-auto;
+  }
+  .nav-link {
+    @apply text-lg font-bold duration-300 transition;
+  }
+  .nav-link:hover {
+    @apply text-yellow-500;
+  }
+}
