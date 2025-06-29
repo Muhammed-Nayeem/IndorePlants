@@ -102,7 +102,7 @@ const sr = ScrollReveal({
   reset: true
 });
 
-sr.reveal(`.home__content, .review__slide-card, .newsletter__card, .footer__icon, .footer__content .footer__copyright`);
+sr.reveal(`.home__content, .review__slide-card, .newsletter__card, .footer__icon, .footer__content, .footer__copyright`);
 sr.reveal(`.home__image`, {delay: 500, scale: 0.5});
 
 sr.reveal(`.section__title`);
@@ -110,6 +110,14 @@ sr.reveal(`.service__card, .popular__card`, {interval: 100});
 
 sr.reveal(`.about__leaf, .customer__leaf`, {delay: 1000, origin: "right"});
 sr.reveal(`.about__item__1-content, .about__item__2-image`, {origin: "right"});
-sr.reveal(`.about__item__2-content, .about__item__1-image, .footer__floral-image`, {origin: "left"});
+sr.reveal(`.about__item__2-content, .about__item__1-image`, {origin: "left"});
 
 sr.reveal(`.popular__leaf`, {delay: 100, origin: "left"});
+
+//Time & Year Activation:
+let currentYear = document.getElementById("current-year");
+const getCurrentYear = () => {
+  let date = new Date();
+  currentYear.innerText = date.getFullYear();
+}
+getCurrentYear();
